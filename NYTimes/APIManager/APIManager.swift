@@ -49,7 +49,9 @@ class APIManager: APIManagerLogic {
 }
 
 enum APIError: Equatable, Error {
+    case jsonSerializeError
     case URLNotFound
+    case ServerError
 }
 
 extension APIError: LocalizedError {
@@ -57,6 +59,10 @@ extension APIError: LocalizedError {
         switch self {
         case .URLNotFound:
             return NSLocalizedString("URL Not Found", comment: "")
+        case .jsonSerializeError:
+            return NSLocalizedString("Json Serialize Error", comment: "")
+        case .ServerError:
+            return NSLocalizedString("Server Error", comment: "")
         }
     }
 }

@@ -1,0 +1,1221 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2023 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://interactive/33bb42c4-ad82-5177-8813-6f38c53b9e70",
+      "url": "https://www.nytimes.com/interactive/2023/us/2023-gift-guide.html",
+      "id": 100000009150132,
+      "asset_id": 100000009150132,
+      "source": "New York Times",
+      "published_date": "2023-11-01",
+      "updated": "2023-11-07 15:56:56",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Gifts;Holidays and Special Occasions;Christmas;Hanukkah;Content Type: Service;internal-open-access",
+      "column": null,
+      "byline": "",
+      "type": "Interactive",
+      "title": "2023 Holiday Gift Guide",
+      "abstract": "Wondering what to get for all the beloved but quirky, picky, fancy, practical or eccentric people in your life? Our experts have curated the best gifts to help you check everyone off your list.",
+      "des_facet": [
+        "Gifts",
+        "Holidays and Special Occasions",
+        "Christmas",
+        "Hanukkah",
+        "Content Type: Service",
+        "internal-open-access"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/01/us/2023-gift-guide-1698864421949/2023-gift-guide-1698864421949-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/01/us/2023-gift-guide-1698864421949/2023-gift-guide-1698864421949-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/01/us/2023-gift-guide-1698864421949/2023-gift-guide-1698864421949-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/a1be9166-816c-53bd-81d8-1e6626f49638",
+      "url": "https://www.nytimes.com/2023/11/02/opinion/sunday/resilience-bad-news-coping.html",
+      "id": 100000009160308,
+      "asset_id": 100000009160308,
+      "source": "New York Times",
+      "published_date": "2023-11-02",
+      "updated": "2023-11-04 17:01:14",
+      "section": "Opinion",
+      "subsection": "Sunday Opinion",
+      "nytdsection": "opinion",
+      "adx_keywords": "Anxiety and Stress;Ethics (Personal);Greek Civilization;Religion and Belief;Philosophy;Israel-Gaza War (2023- );Hillesum, Etty",
+      "column": null,
+      "byline": "By David Brooks",
+      "type": "Article",
+      "title": "How to Stay Sane in Brutalizing Times",
+      "abstract": "Ancient wisdom can help keep us from becoming calloused over.",
+      "des_facet": [
+        "Anxiety and Stress",
+        "Ethics (Personal)",
+        "Greek Civilization",
+        "Religion and Belief",
+        "Philosophy",
+        "Israel-Gaza War (2023- )"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Hillesum, Etty"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Photo illustration by The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/04/opinion/sunday/02Brooks/02Brooks-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/04/opinion/sunday/02Brooks/02Brooks-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/04/opinion/sunday/02Brooks/02Brooks-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/b9656d8a-d99f-51ea-8580-2228fe98822d",
+      "url": "https://www.nytimes.com/interactive/2023/11/07/us/elections/results-ohio-issue-1-abortion-rights.html",
+      "id": 100000009168549,
+      "asset_id": 100000009168549,
+      "source": "New York Times",
+      "published_date": "2023-11-07",
+      "updated": "2023-11-08 07:58:17",
+      "section": "U.S.",
+      "subsection": "Elections",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Elections;internal-paywall-exempt;Ohio",
+      "column": null,
+      "byline": "",
+      "type": "Interactive",
+      "title": "Ohio Issue 1 Election Results: Establish a Constitutional Right to Abortion",
+      "abstract": "See full results and maps from the 2023 Ohio elections.",
+      "des_facet": [
+        "Elections",
+        "internal-paywall-exempt"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Ohio"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/07/multimedia/eln-promo-2023-11-07-state-oh-POST_POLLS_CLOSED/eln-promo-2023-11-07-state-oh-POST_POLLS_CLOSED-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/07/multimedia/eln-promo-2023-11-07-state-oh-POST_POLLS_CLOSED/eln-promo-2023-11-07-state-oh-POST_POLLS_CLOSED-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/07/multimedia/eln-promo-2023-11-07-state-oh-POST_POLLS_CLOSED/eln-promo-2023-11-07-state-oh-POST_POLLS_CLOSED-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/29692e88-04fd-5745-bb6b-3b24078e919e",
+      "url": "https://www.nytimes.com/interactive/2023/11/07/us/elections/results-virginia-state-legislature.html",
+      "id": 0,
+      "asset_id": 0,
+      "source": "New York Times",
+      "published_date": "2023-11-07",
+      "updated": "2023-11-08 07:57:19",
+      "section": "U.S.",
+      "subsection": "Elections",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Elections, State Legislature;Elections;internal-paywall-exempt;Virginia",
+      "column": null,
+      "byline": "",
+      "type": "Interactive",
+      "title": "Virginia State Legislature Election Results",
+      "abstract": "See full results from the Virginia state election.",
+      "des_facet": [
+        "Elections, State Legislature",
+        "Elections",
+        "internal-paywall-exempt"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Virginia"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/07/multimedia/eln-promo-2023-11-07-state-va-POST_POLLS_CLOSED/eln-promo-2023-11-07-state-va-POST_POLLS_CLOSED-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/07/multimedia/eln-promo-2023-11-07-state-va-POST_POLLS_CLOSED/eln-promo-2023-11-07-state-va-POST_POLLS_CLOSED-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/07/multimedia/eln-promo-2023-11-07-state-va-POST_POLLS_CLOSED/eln-promo-2023-11-07-state-va-POST_POLLS_CLOSED-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/04513822-575f-5e5b-aa2f-8c6b78a8f8d7",
+      "url": "https://www.nytimes.com/2023/11/05/business/banks-accounts-close-suddenly.html",
+      "id": 100000009041475,
+      "asset_id": 100000009041475,
+      "source": "New York Times",
+      "published_date": "2023-11-05",
+      "updated": "2023-11-06 13:54:58",
+      "section": "Business",
+      "subsection": "",
+      "nytdsection": "business",
+      "adx_keywords": "Banking and Financial Institutions;Regulation and Deregulation of Industry;Small Business;Personal Finances;Customer Relations;Checks and Checking Accounts;Credit Cards;Frauds and Swindling;Ex-Convicts;JPMorgan Chase & Company;Citigroup Inc;Bank of Montreal;United States",
+      "column": null,
+      "byline": "By Ron Lieber and Tara Siegel Bernard",
+      "type": "Article",
+      "title": "Why Banks Are Suddenly Closing Down Customer Accounts",
+      "abstract": "Surprised individuals and small-business owners can’t pay rent or make payroll, and no one ever explains what they did wrong.",
+      "des_facet": [
+        "Banking and Financial Institutions",
+        "Regulation and Deregulation of Industry",
+        "Small Business",
+        "Personal Finances",
+        "Customer Relations",
+        "Checks and Checking Accounts",
+        "Credit Cards",
+        "Frauds and Swindling",
+        "Ex-Convicts"
+      ],
+      "org_facet": [
+        "JPMorgan Chase & Company",
+        "Citigroup Inc",
+        "Bank of Montreal"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "United States"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jennifer Maslanka and her business partner rounded down the cash deposits from the bars they ran to simplify accounting.",
+          "copyright": "Dana Golan for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/10/13/multimedia/00shuttered-types-04-twkh/00shuttered-types-04-twkh-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/10/13/multimedia/00shuttered-types-04-twkh/00shuttered-types-04-twkh-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/10/13/multimedia/00shuttered-types-04-twkh/00shuttered-types-04-twkh-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/cf53e68f-cbef-5def-91b0-4e682c77bb62",
+      "url": "https://www.nytimes.com/2023/11/03/style/modern-love-a-marriage-problem-that-cant-be-solved.html",
+      "id": 100000009147465,
+      "asset_id": 100000009147465,
+      "source": "New York Times",
+      "published_date": "2023-11-03",
+      "updated": "2023-11-05 12:23:20",
+      "section": "Style",
+      "subsection": "",
+      "nytdsection": "style",
+      "adx_keywords": "Love (Emotion);Death and Dying;Marriages",
+      "column": null,
+      "byline": "By Emily Suon",
+      "type": "Article",
+      "title": "A Marriage Problem That Can’t Be Solved",
+      "abstract": "My husband and I haven’t spoken in more than a year. It can’t go on like this, but it will.",
+      "des_facet": [
+        "Love (Emotion)",
+        "Death and Dying",
+        "Marriages"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Brian Rea",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/05/fashion/05MODERN-SUON/05MODERN-SUON-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/05/fashion/05MODERN-SUON/05MODERN-SUON-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/05/fashion/05MODERN-SUON/05MODERN-SUON-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/7be095cc-6579-57d6-91c9-b9f73d6a0d5d",
+      "url": "https://www.nytimes.com/interactive/2023/11/03/upshot/flashback.html",
+      "id": 100000009164150,
+      "asset_id": 100000009164150,
+      "source": "New York Times",
+      "published_date": "2023-11-03",
+      "updated": "2023-11-07 09:56:01",
+      "section": "The Upshot",
+      "subsection": "",
+      "nytdsection": "the upshot",
+      "adx_keywords": "internal-paywall-exempt;Content Type: Quiz",
+      "column": null,
+      "byline": "By",
+      "type": "Interactive",
+      "title": "Flashback: Your Weekly History Quiz, November 4, 2023",
+      "abstract": "Can you sort 8 historical events?",
+      "des_facet": [
+        "internal-paywall-exempt",
+        "Content Type: Quiz"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/03/upshot/flashback-promo/flashback-promo-thumbStandard-v3.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/03/upshot/flashback-promo/flashback-promo-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/03/upshot/flashback-promo/flashback-promo-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/f2bfacfe-0f90-5483-9c4d-086c43d5b657",
+      "url": "https://www.nytimes.com/2023/11/07/opinion/trump-fraud-trial.html",
+      "id": 100000009168762,
+      "asset_id": 100000009168762,
+      "source": "New York Times",
+      "published_date": "2023-11-07",
+      "updated": "2023-11-07 23:57:46",
+      "section": "Opinion",
+      "subsection": "",
+      "nytdsection": "opinion",
+      "adx_keywords": "New York State Civil Case Against Trump (452564/2022);Decisions and Verdicts;Suits and Litigation (Civil);Appraisals and Valuation (Property);Frauds and Swindling;Engoron, Arthur F;Habba, Alina;James, Letitia;Trump, Donald J;Trump Organization;New York City",
+      "column": null,
+      "byline": "By Jesse Wegman",
+      "type": "Article",
+      "title": "The One Audience Trump Can’t Hoodwink",
+      "abstract": "Being in a courtroom deprives Trump of his superpower: his ability to speak without consequence, without factual basis and often without end.",
+      "des_facet": [
+        "New York State Civil Case Against Trump (452564/2022)",
+        "Decisions and Verdicts",
+        "Suits and Litigation (Civil)",
+        "Appraisals and Valuation (Property)",
+        "Frauds and Swindling"
+      ],
+      "org_facet": [
+        "Trump Organization"
+      ],
+      "per_facet": [
+        "Engoron, Arthur F",
+        "Habba, Alina",
+        "James, Letitia",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [
+        "New York City"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Adam Gray/Agence France-Presse — Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/08/opinion/07wegman/07wegman-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/08/opinion/07wegman/07wegman-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/08/opinion/07wegman/07wegman-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/dee2339e-7274-5b60-b04d-dde415e0b644",
+      "url": "https://www.nytimes.com/2023/11/05/us/politics/biden-trump-2024-poll.html",
+      "id": 100000009164414,
+      "asset_id": 100000009164414,
+      "source": "New York Times",
+      "published_date": "2023-11-05",
+      "updated": "2023-11-07 01:59:34",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Presidential Election of 2024;Polls and Public Opinion;United States Economy;Biden, Joseph R Jr;Trump, Donald J;New York Times/Siena College Poll",
+      "column": null,
+      "byline": "By Shane Goldmacher",
+      "type": "Article",
+      "title": "Trump Leads in 5 Critical States as Voters Blast Biden, Times/Siena Poll Finds",
+      "abstract": "Voters in battleground states said they trusted Donald J. Trump over President Biden on the economy, foreign policy and immigration, as Mr. Biden’s multiracial base shows signs of fraying.",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "Polls and Public Opinion",
+        "United States Economy"
+      ],
+      "org_facet": [
+        "New York Times/Siena College Poll"
+      ],
+      "per_facet": [
+        "Biden, Joseph R Jr",
+        "Trump, Donald J"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/03/multimedia/2023-10-30-november-polls-index/2023-10-30-november-polls-index-thumbStandard-v11.png",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/03/multimedia/2023-10-30-november-polls-index/2023-10-30-november-polls-index-mediumThreeByTwo210-v11.png",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/03/multimedia/2023-10-30-november-polls-index/2023-10-30-november-polls-index-mediumThreeByTwo440-v11.png",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/864668e7-d4e3-54c1-9dc9-4993c06f5ad9",
+      "url": "https://www.nytimes.com/interactive/2023/11/07/us/elections/results-kentucky-governor.html",
+      "id": 0,
+      "asset_id": 0,
+      "source": "New York Times",
+      "published_date": "2023-11-07",
+      "updated": "2023-11-08 07:58:17",
+      "section": "U.S.",
+      "subsection": "Elections",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Elections;internal-paywall-exempt;Elections, Governors;Kentucky",
+      "column": null,
+      "byline": "",
+      "type": "Interactive",
+      "title": "Kentucky Governor Election Results",
+      "abstract": "See full results and maps from the 2023 Kentucky elections.",
+      "des_facet": [
+        "Elections",
+        "internal-paywall-exempt",
+        "Elections, Governors"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Kentucky"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/08/multimedia/eln-promo-2023-11-07-race-ky-governor-RACE_CALL-besheara_camerond/eln-promo-2023-11-07-race-ky-governor-RACE_CALL-besheara_camerond-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/08/multimedia/eln-promo-2023-11-07-race-ky-governor-RACE_CALL-besheara_camerond/eln-promo-2023-11-07-race-ky-governor-RACE_CALL-besheara_camerond-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/08/multimedia/eln-promo-2023-11-07-race-ky-governor-RACE_CALL-besheara_camerond/eln-promo-2023-11-07-race-ky-governor-RACE_CALL-besheara_camerond-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/eb01f452-d4fe-5c85-bf84-b74bafad6730",
+      "url": "https://www.nytimes.com/2023/11/05/us/us-army-marines-artillery-isis-pentagon.html",
+      "id": 100000008902997,
+      "asset_id": 100000008902997,
+      "source": "New York Times",
+      "published_date": "2023-11-05",
+      "updated": "2023-11-05 22:16:05",
+      "section": "U.S.",
+      "subsection": "",
+      "nytdsection": "u.s.",
+      "adx_keywords": "vis-design;United States Defense and Military Forces;War and Armed Conflicts;Veterans;Firearms;Brain;Post-Traumatic Stress Disorder;Mental Health and Disorders;Workplace Hazards and Violations;United States Marine Corps;United States Army;Islamic State in Iraq and Syria (ISIS);Syria;Iraq",
+      "column": null,
+      "byline": "By Dave Philipps and Matthew Callahan",
+      "type": "Article",
+      "title": "A Secret War, Strange New Wounds and Silence From the Pentagon",
+      "abstract": "Many U.S. troops who fired vast numbers of artillery rounds against the Islamic State developed mysterious, life-shattering mental and physical problems. But the military struggled to understand what was wrong.",
+      "des_facet": [
+        "vis-design",
+        "United States Defense and Military Forces",
+        "War and Armed Conflicts",
+        "Veterans",
+        "Firearms",
+        "Brain",
+        "Post-Traumatic Stress Disorder",
+        "Mental Health and Disorders",
+        "Workplace Hazards and Violations"
+      ],
+      "org_facet": [
+        "United States Marine Corps",
+        "United States Army",
+        "Islamic State in Iraq and Syria (ISIS)"
+      ],
+      "per_facet": [],
+      "geo_facet": [
+        "Syria",
+        "Iraq"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Tommy McDaniel was part of a Marine Corps gun crew that fired 7,188 rounds in a few months. In 2021, after years of suffering from headaches and depression, he died by suicide.",
+          "copyright": "Matthew Callahan/U.S. Marine Corps",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/10/22/us/XXshockwaves-archival-02/XXshockwaves-archival-02-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/10/22/us/XXshockwaves-archival-02/XXshockwaves-archival-02-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/10/22/us/XXshockwaves-archival-02/XXshockwaves-archival-02-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/1c8c68d4-fb6b-587a-878f-fd121be2d392",
+      "url": "https://www.nytimes.com/2023/11/04/us/politics/obama-israel-palestine.html",
+      "id": 100000009165887,
+      "asset_id": 100000009165887,
+      "source": "New York Times",
+      "published_date": "2023-11-04",
+      "updated": "2023-11-05 20:27:06",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Israel-Gaza War (2023- );Politics and Government;Palestinians;International Relations;Defense and Military Forces;Obama, Barack",
+      "column": null,
+      "byline": "By Lisa Lerer",
+      "type": "Article",
+      "title": "Obama Urges Americans to Take in ‘Whole Truth’ of Israel-Gaza War",
+      "abstract": "The former president said everyone was “complicit to some degree” in the current bloodshed and acknowledged the points of view on both sides of the conflict.",
+      "des_facet": [
+        "Israel-Gaza War (2023- )",
+        "Politics and Government",
+        "Palestinians",
+        "International Relations",
+        "Defense and Military Forces"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Obama, Barack"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "“What Hamas did was horrific, and there’s no justification for it,” former President Barack Obama said on Friday. “And what is also true is that the occupation and what’s happening to Palestinians is unbearable.”",
+          "copyright": "Nicole Craine for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/04/multimedia/04pol-obama-vhzw/04pol-obama-vhzw-thumbStandard-v2.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/04/multimedia/04pol-obama-vhzw/04pol-obama-vhzw-mediumThreeByTwo210-v2.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/04/multimedia/04pol-obama-vhzw/04pol-obama-vhzw-mediumThreeByTwo440-v2.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/cb6c9a2a-6481-5125-9814-c9464e64104d",
+      "url": "https://www.nytimes.com/interactive/2023/11/07/us/elections/results-ohio-issue-2-legalize-marijuana.html",
+      "id": 0,
+      "asset_id": 0,
+      "source": "New York Times",
+      "published_date": "2023-11-07",
+      "updated": "2023-11-08 07:58:14",
+      "section": "U.S.",
+      "subsection": "Elections",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Elections;internal-paywall-exempt;Ohio",
+      "column": null,
+      "byline": "",
+      "type": "Interactive",
+      "title": "Ohio Issue 2 Election Results: Legalize Marijuana",
+      "abstract": "See full results and maps from the 2023 Ohio elections.",
+      "des_facet": [
+        "Elections",
+        "internal-paywall-exempt"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Ohio"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/07/multimedia/eln-promo-2023-11-07-state-oh-POST_POLLS_CLOSED/eln-promo-2023-11-07-state-oh-POST_POLLS_CLOSED-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/07/multimedia/eln-promo-2023-11-07-state-oh-POST_POLLS_CLOSED/eln-promo-2023-11-07-state-oh-POST_POLLS_CLOSED-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/07/multimedia/eln-promo-2023-11-07-state-oh-POST_POLLS_CLOSED/eln-promo-2023-11-07-state-oh-POST_POLLS_CLOSED-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/d0f75d10-a51c-5ca3-b7a0-5169728d1f14",
+      "url": "https://www.nytimes.com/2023/11/01/world/middleeast/columbia-protest-hillary-clinton-class.html",
+      "id": 100000009161080,
+      "asset_id": 100000009161080,
+      "source": "New York Times",
+      "published_date": "2023-11-01",
+      "updated": "2023-11-02 18:26:41",
+      "section": "World",
+      "subsection": "Middle East",
+      "nytdsection": "world",
+      "adx_keywords": "Demonstrations, Protests and Riots;Israel-Gaza War (2023- );Clinton, Hillary Rodham;Yarhi-Milo, Keren;Columbia University;Hamas;Israel",
+      "column": null,
+      "byline": "By Katherine Rosman",
+      "type": "Article",
+      "title": "Student Protesters Walk Out of Hillary Clinton’s Class at Columbia",
+      "abstract": "The action was in protest of what they had perceived as the school’s role in publicly shaming students who had signed a statement saying that “the Israeli extremist government” bore responsibility for the war.",
+      "des_facet": [
+        "Demonstrations, Protests and Riots",
+        "Israel-Gaza War (2023- )"
+      ],
+      "org_facet": [
+        "Columbia University",
+        "Hamas"
+      ],
+      "per_facet": [
+        "Clinton, Hillary Rodham",
+        "Yarhi-Milo, Keren"
+      ],
+      "geo_facet": [
+        "Israel"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "The demonstrators sat quietly in a common area in the International Affairs Building at Columbia University on Wednesday, protesting against the school.",
+          "copyright": "Katherine Rosman",
+          "approved_for_syndication": 0,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/01/nyregion/01israel-hamas-clinton-class-walkout/01israel-hamas-clinton-class-walkout-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/01/nyregion/01israel-hamas-clinton-class-walkout/01israel-hamas-clinton-class-walkout-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/01/nyregion/01israel-hamas-clinton-class-walkout/01israel-hamas-clinton-class-walkout-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/307ddbea-8855-557d-93fc-fae1c2f96403",
+      "url": "https://www.nytimes.com/2023/11/03/realestate/early-retirement-community-florida.html",
+      "id": 100000009114150,
+      "asset_id": 100000009114150,
+      "source": "New York Times",
+      "published_date": "2023-11-03",
+      "updated": "2023-11-05 08:07:56",
+      "section": "Real Estate",
+      "subsection": "",
+      "nytdsection": "real estate",
+      "adx_keywords": "Retirement Communities and Assisted Living;Real Estate and Housing (Residential);Retirement;Age, Chronological;Elderly;Content Type: Personal Profile;vis-photo;Sun City Center (Fla);Florida",
+      "column": null,
+      "byline": "By Debra Kamin and Scott McIntyre",
+      "type": "Article",
+      "title": "The Youngest Senior",
+      "abstract": "Moving to Florida for early retirement, a native New Jerseyan in her 50s is finding her third act to be the most fun in a community where the average age is 79.",
+      "des_facet": [
+        "Retirement Communities and Assisted Living",
+        "Real Estate and Housing (Residential)",
+        "Retirement",
+        "Age, Chronological",
+        "Elderly",
+        "Content Type: Personal Profile",
+        "vis-photo"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [
+        "Sun City Center (Fla)",
+        "Florida"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Drawn by the sunshine and a sense of community, Maria Hodge is now one of the youngest residents at Sun City Center, a 55-plus community near Tampa, Fla. ",
+          "copyright": "",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/05/multimedia/03youngestsenior-hczk/03youngestsenior-hczk-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/05/multimedia/03youngestsenior-hczk/03youngestsenior-hczk-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/05/multimedia/03youngestsenior-hczk/03youngestsenior-hczk-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/70eab372-6fc7-5355-be9c-86ae599e3b98",
+      "url": "https://www.nytimes.com/2023/11/07/us/politics/tlaib-censure-house-israel-gaza.html",
+      "id": 100000009169952,
+      "asset_id": 100000009169952,
+      "source": "New York Times",
+      "published_date": "2023-11-07",
+      "updated": "2023-11-08 01:19:32",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "United States Politics and Government;Israel-Gaza War (2023- );Palestinians;Palestinian-Americans;McCormick, Rich (1968- );Tlaib, Rashida;House of Representatives;Gaza Strip;Israel",
+      "column": null,
+      "byline": "By Kayla Guo",
+      "type": "Article",
+      "title": "House Censures Rashida Tlaib, Citing ‘River to the Sea’ Slogan",
+      "abstract": "Twenty-two Democrats joined most Republicans in the rebuke of Ms. Tlaib, the only Palestinian American in Congress, accusing her of calling for the destruction of Israel.",
+      "des_facet": [
+        "United States Politics and Government",
+        "Israel-Gaza War (2023- )",
+        "Palestinians",
+        "Palestinian-Americans"
+      ],
+      "org_facet": [
+        "House of Representatives"
+      ],
+      "per_facet": [
+        "McCormick, Rich (1968- )",
+        "Tlaib, Rashida"
+      ],
+      "geo_facet": [
+        "Gaza Strip",
+        "Israel"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Representative Rashida Tlaib has said her use of a slogan embraced by pro-Palestinian protesters was “an aspirational call for freedom, human rights and peaceful coexistence, not death, destruction or hate.”",
+          "copyright": "Jose Luis Magana/Associated Press",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/07/multimedia/07dc-tlaib-gpmb/07dc-tlaib-gpmb-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/07/multimedia/07dc-tlaib-gpmb/07dc-tlaib-gpmb-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/07/multimedia/07dc-tlaib-gpmb/07dc-tlaib-gpmb-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/fe6c051d-3051-5717-9987-3e4ee8056313",
+      "url": "https://www.nytimes.com/interactive/2023/us/politics/presidential-candidates-2024.html",
+      "id": 100000008780405,
+      "asset_id": 100000008780405,
+      "source": "New York Times",
+      "published_date": "2023-02-21",
+      "updated": "2023-10-28 16:08:49",
+      "section": "U.S.",
+      "subsection": "Politics",
+      "nytdsection": "u.s.",
+      "adx_keywords": "Presidential Election of 2024;United States Politics and Government;Trump, Donald J;Biden, Joseph R Jr;Haley, Nikki R;Ramaswamy, Vivek (1985- )",
+      "column": null,
+      "byline": "By Martín González Gómez and Maggie Astor",
+      "type": "Interactive",
+      "title": "Who’s Running for President in 2024?",
+      "abstract": "See who is in, and who else might run.",
+      "des_facet": [
+        "Presidential Election of 2024",
+        "United States Politics and Government"
+      ],
+      "org_facet": [],
+      "per_facet": [
+        "Trump, Donald J",
+        "Biden, Joseph R Jr",
+        "Haley, Nikki R",
+        "Ramaswamy, Vivek (1985- )"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/02/21/multimedia/2023-02-10-2024-candidate-tracker-index/2023-02-10-2024-candidate-tracker-index-thumbStandard-v29.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/02/21/multimedia/2023-02-10-2024-candidate-tracker-index/2023-02-10-2024-candidate-tracker-index-mediumThreeByTwo210-v29.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/02/21/multimedia/2023-02-10-2024-candidate-tracker-index/2023-02-10-2024-candidate-tracker-index-mediumThreeByTwo440-v29.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/599421b5-03c3-5ec5-b2e2-f58e6f03fa62",
+      "url": "https://www.nytimes.com/2023/11/06/business/wework-bankruptcy.html",
+      "id": 100000009162055,
+      "asset_id": 100000009162055,
+      "source": "New York Times",
+      "published_date": "2023-11-06",
+      "updated": "2023-11-07 23:54:15",
+      "section": "Business",
+      "subsection": "",
+      "nytdsection": "business",
+      "adx_keywords": "Co-Working;Bankruptcies;Real Estate (Commercial);Renting and Leasing (Real Estate);Mathrani, Sandeep;Tolley, David M;WeWork Companies Inc;SOFTBANK Corporation",
+      "column": null,
+      "byline": "By Jordyn Holman and J. Edward Moreno",
+      "type": "Article",
+      "title": "WeWork Files for Bankruptcy Amid Glut of Empty Offices",
+      "abstract": "The move is a blow for landlords who have rented space to the co-working group, which is planning a “comprehensive reorganization” that includes cutting some of its leases.",
+      "des_facet": [
+        "Co-Working",
+        "Bankruptcies",
+        "Real Estate (Commercial)",
+        "Renting and Leasing (Real Estate)"
+      ],
+      "org_facet": [
+        "WeWork Companies Inc",
+        "SOFTBANK Corporation"
+      ],
+      "per_facet": [
+        "Mathrani, Sandeep",
+        "Tolley, David M"
+      ],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Hiroko Masuike/The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/06/multimedia/06wework-bankruptsy-sub-chlk/06wework-bankruptsy-sub-chlk-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/06/multimedia/06wework-bankruptsy-sub-chlk/06wework-bankruptsy-sub-chlk-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/06/multimedia/06wework-bankruptsy-sub-chlk/06wework-bankruptsy-sub-chlk-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://article/366c9df5-c453-511c-8067-c4815657d555",
+      "url": "https://www.nytimes.com/2023/11/03/business/jeff-bezos-amazon-miami-seattle.html",
+      "id": 100000009163682,
+      "asset_id": 100000009163682,
+      "source": "New York Times",
+      "published_date": "2023-11-03",
+      "updated": "2023-11-03 23:49:32",
+      "section": "Business",
+      "subsection": "",
+      "nytdsection": "business",
+      "adx_keywords": "Bezos, Jeffrey P;Amazon.com Inc;Blue Origin;Seattle (Wash);Miami (Fla)",
+      "column": null,
+      "byline": "By Mike Ives",
+      "type": "Article",
+      "title": "Jeff Bezos Says He Is Leaving Seattle for Miami",
+      "abstract": "The Amazon founder has lived in Seattle since 1994. He said he was returning to Miami, where he attended high school, in part to be closer to his parents.",
+      "des_facet": [],
+      "org_facet": [
+        "Amazon.com Inc",
+        "Blue Origin"
+      ],
+      "per_facet": [
+        "Bezos, Jeffrey P"
+      ],
+      "geo_facet": [
+        "Seattle (Wash)",
+        "Miami (Fla)"
+      ],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "Jeff Bezos and Lauren Sánchez at Miami International Autodrome in May.",
+          "copyright": "Clive Mason/Formula 1, via Getty Images",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/03/multimedia/03xp-bezos-miami/03xp-bezos-miami-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/03/multimedia/03xp-bezos-miami/03xp-bezos-miami-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/03/multimedia/03xp-bezos-miami/03xp-bezos-miami-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    },
+    {
+      "uri": "nyt://interactive/5af4c389-d98e-59c0-925f-7443c6a00783",
+      "url": "https://www.nytimes.com/interactive/2023/11/03/briefing/news-quiz-israel-matthew-perry-world-series.html",
+      "id": 100000009163018,
+      "asset_id": 100000009163018,
+      "source": "New York Times",
+      "published_date": "2023-11-03",
+      "updated": "2023-11-04 17:37:35",
+      "section": "Briefing",
+      "subsection": "",
+      "nytdsection": "briefing",
+      "adx_keywords": "Content Type: Quiz",
+      "column": null,
+      "byline": "",
+      "type": "Interactive",
+      "title": "The New York Times News Quiz, Nov. 3, 2023",
+      "abstract": "Did you follow the news this week? Take our quiz to see how well you stack up with other Times readers.",
+      "des_facet": [
+        "Content Type: Quiz"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "",
+          "caption": "",
+          "copyright": "Tamir Kalifa for The New York Times",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2023/11/03/multimedia/03-quiz-israel-tqwc/03-quiz-israel-tqwc-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/03/multimedia/03-quiz-israel-tqwc/03-quiz-israel-tqwc-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2023/11/03/multimedia/03-quiz-israel-tqwc/03-quiz-israel-tqwc-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}
