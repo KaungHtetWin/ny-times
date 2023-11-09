@@ -164,3 +164,18 @@ class URLProtocolMock: URLProtocol {
     // this method is required but doesn't need to do anything
     override func stopLoading() { }
 }
+
+
+class MockAPIManager: APIManagerLogic {
+    func sendJSONRequest(endpoint: Endpoint, completion: @escaping (ResponseDataCompletionHandler)) {
+        if endpoint.path.contains("viewed/1.json") {
+            completion(AppUtility.readLocalFile(forName: "OneDayArticles"), nil)
+        } else if endpoint.path.contains("viewed/7.json") {
+            completion(AppUtility.readLocalFile(forName: "SevenDayArticles"), nil)
+        } else if endpoint.path.contains("viewed/30.json") {
+            completion(AppUtility.readLocalFile(forName: "ThirtyDaysArticles"), nil)
+        } else if endpoint.path.contains("articlesearch.json") {
+            completion(AppUtility.readLocalFile(forName: "SearchArticles"), nil)
+        }
+    }
+}

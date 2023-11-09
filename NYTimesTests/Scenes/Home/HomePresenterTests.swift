@@ -7,8 +7,7 @@
 @testable import NYTimes
 import XCTest
 
-class HomePresenterTests: XCTestCase
-{
+class HomePresenterTests: XCTestCase {
     // MARK: Subject under test
     
     var sut: HomePresenter!
@@ -34,11 +33,11 @@ class HomePresenterTests: XCTestCase
     // MARK: Test doubles
     
     class HomeDisplayLogicSpy: HomeDisplayLogic {
-        var displayHomeCalled = false
+        var displayArticlesCalled = false
         var displayErrorCalled = false
         var articleRateViewModel: Home.GetArticles.ViewModel?
-        func displayHome(viewModel: Home.GetArticles.ViewModel) {
-            displayHomeCalled = true
+        func displayArticles(viewModel: Home.GetArticles.ViewModel) {
+            displayArticlesCalled = true
             articleRateViewModel = viewModel
         }
         
@@ -49,18 +48,18 @@ class HomePresenterTests: XCTestCase
     
     // MARK: Tests
     
-    func testPresentHome() {
+    func testPresentArticles() {
         // Given
         let spy = HomeDisplayLogicSpy()
         sut.viewController = spy
         let articlesData = AppUtility.readLocalFile(forName: "OneDayArticles")
         guard let response = Home.GetArticles.Response.from(data: articlesData) else { return }
         // When
-        sut.presentHome(response: response)
+        sut.presentArticles(response: response, period: .oneDay)
         
         // Then
         let article = spy.articleRateViewModel?.articles?.first
-        XCTAssertTrue(spy.displayHomeCalled, "presentSomething(response:) should ask the view controller to display the result")
+        XCTAssertTrue(spy.displayArticlesCalled, "presentArticles(response:) should ask the view controller to display the result")
         XCTAssertEqual(article?.title, "Under Scrutiny Over Gaza, Israel Points to Civilian Toll of U.S. Wars", "first article title should be Under Scrutiny Over Gaza, Israel Points to Civilian Toll of U.S. Wars")
     }
     

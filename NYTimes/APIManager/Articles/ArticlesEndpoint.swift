@@ -11,6 +11,7 @@ enum ArticlesEndpoint: Endpoint {
     case viewed1Day
     case viewed7Days
     case viewed30Days
+    case search(q: String)
     var httpMethod: String {
         switch self {
         default:
@@ -21,18 +22,21 @@ enum ArticlesEndpoint: Endpoint {
     var baseURLString: String {
         switch self {
         default:
-            return "https://api.nytimes.com/svc/mostpopular/v2/"
+            return "https://api.nytimes.com/svc/"
         }
     }
     
     var path: String {
         switch self {
         case .viewed1Day:
-            return "viewed/1.json"
+            return "mostpopular/v2/viewed/1.json?api-key=B8pb9LcbrNNmXVOhGLxxUYnBUit7fCvB"
         case .viewed7Days:
-            return "viewed/7.json"
+            return "mostpopular/v2/viewed/7.json?api-key=B8pb9LcbrNNmXVOhGLxxUYnBUit7fCvB"
         case .viewed30Days:
-            return "viewed/30.json"
+            return "mostpopular/v2/viewed/30.json?api-key=B8pb9LcbrNNmXVOhGLxxUYnBUit7fCvB"
+        case .search(let q):
+            let encodedQuery = q.addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed) ?? ""
+            return "search/v2/articlesearch.json?q=\(encodedQuery)&api-key=B8pb9LcbrNNmXVOhGLxxUYnBUit7fCvB"
         }
     }
     
@@ -40,8 +44,7 @@ enum ArticlesEndpoint: Endpoint {
         switch self {
         default:
             return ["Content-Type": "application/json",
-                    "Accept": "application/json",
-                    "api-key": "B8pb9LcbrNNmXVOhGLxxUYnBUit7fCvB"]
+                    "Accept": "application/json"]
         }
     }
     

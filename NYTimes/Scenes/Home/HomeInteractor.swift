@@ -8,7 +8,7 @@
 import UIKit
 
 protocol HomeBusinessLogic {
-    func doGetHome(request: Home.GetArticles.Request)
+    func doGetArticles(request: Home.GetArticles.Request)
 }
 
 class HomeInteractor: HomeBusinessLogic {
@@ -19,14 +19,14 @@ class HomeInteractor: HomeBusinessLogic {
         worker =  HomeWorker()
     }
     
-    func doGetHome(request: Home.GetArticles.Request) {
+    func doGetArticles(request: Home.GetArticles.Request) {
         worker?.doGetArticles(requestData: request, completed: {[weak self] (JSONObject, error) in
             if error == nil {
                 if let response = Home.GetArticles.Response.from(data: JSONObject) {
                     if let message = response.fault?.detail?.errorcode {
                         self?.presenter?.presentError(message: message)
                     } else {
-                        self?.presenter?.presentHome(response: response)
+                        self?.presenter?.presentArticles(response: response, period: request.period)
                     }
                 } else {
                     self?.presenter?.presentError(message: APIError.jsonSerializeError.localizedDescription)

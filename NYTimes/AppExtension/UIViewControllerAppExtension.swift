@@ -10,6 +10,12 @@ import UIKit
 extension UIViewController {
     
     func showAlert(title: String? = "Error", message: String?, actionText: String? = "Okay", actionCallback: (() -> Void)? = nil) {
+        
+        if let currentAlert = self.presentedViewController as? UIAlertController {
+            currentAlert.message = message
+            currentAlert.title = title
+            return
+        }
         let alertController = UIAlertController(title: title, message: message, preferredStyle: .alert)
         
         alertController.addAction(UIAlertAction(title: actionText, style: .default, handler: { (_) in

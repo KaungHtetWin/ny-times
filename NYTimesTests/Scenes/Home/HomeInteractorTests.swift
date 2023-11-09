@@ -34,13 +34,11 @@ class HomeInteractorTests: XCTestCase {
     // MARK: Test doubles
     
     class HomePresentationLogicSpy: HomePresentationLogic {
-        
-        
         var presentHomeCalled = false
         var presentErrorCalled = false
         var articleResponse: Home.GetArticles.Response?
         var errorMessage: String?
-        func presentHome(response: Home.GetArticles.Response) {
+        func presentArticles(response: Home.GetArticles.Response, period: Home.ArticlesPeriod) {
             presentHomeCalled = true
             articleResponse = response
         }
@@ -49,7 +47,6 @@ class HomeInteractorTests: XCTestCase {
             presentErrorCalled = true
             errorMessage = message
         }
-        
     }
     
     // MARK: Tests
@@ -62,7 +59,7 @@ class HomeInteractorTests: XCTestCase {
         let mock = MockHomeWorker()
         sut.worker = mock
         // When
-        sut.doGetHome(request: request)
+        sut.doGetArticles(request: request)
         
         // Then
         let articleResponse = spy.articleResponse
@@ -70,7 +67,7 @@ class HomeInteractorTests: XCTestCase {
         XCTAssertEqual(articleResponse?.results?.first?.title, "Under Scrutiny Over Gaza, Israel Points to Civilian Toll of U.S. Wars", "first article title should be Under Scrutiny Over Gaza, Israel Points to Civilian Toll of U.S. Wars")
     }
     
-    func testGrticlesJsonSerializeErrorErrorResponse() {
+    func testGrticlesJsonSerializeErrorResponse() {
         // Given
         let spy = HomePresentationLogicSpy()
         sut.presenter = spy
@@ -79,7 +76,7 @@ class HomeInteractorTests: XCTestCase {
         mock.shouldReponseEmptyData = true
         sut.worker = mock
         // When
-        sut.doGetHome(request: request)
+        sut.doGetArticles(request: request)
         // Then
         let errorMessage = spy.errorMessage
         XCTAssertTrue(spy.presentErrorCalled, "doGetHome(request:) should ask the presenter to show error")
@@ -95,7 +92,7 @@ class HomeInteractorTests: XCTestCase {
         mock.shouldReponseServerError = true
         sut.worker = mock
         // When
-        sut.doGetHome(request: request)
+        sut.doGetArticles(request: request)
         // Then
         let errorMessage = spy.errorMessage
         XCTAssertTrue(spy.presentErrorCalled, "doGetHome(request:) should ask the presenter to show error")
@@ -111,7 +108,7 @@ class HomeInteractorTests: XCTestCase {
         mock.shouldReponseAppKeyError = true
         sut.worker = mock
         // When
-        sut.doGetHome(request: request)
+        sut.doGetArticles(request: request)
         // Then
         let errorMessage = spy.errorMessage
         XCTAssertTrue(spy.presentErrorCalled, "doGetHome(request:) should ask the presenter to show error")

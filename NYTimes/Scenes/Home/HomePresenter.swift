@@ -8,16 +8,16 @@
 import UIKit
 
 protocol HomePresentationLogic {
-    func presentHome(response: Home.GetArticles.Response)
+    func presentArticles(response: Home.GetArticles.Response, period: Home.ArticlesPeriod)
     func presentError(message: String)
 }
 
 class HomePresenter: HomePresentationLogic {
     weak var viewController: HomeDisplayLogic?
     
-    func presentHome(response: Home.GetArticles.Response) {
-        let viewModel = Home.GetArticles.ViewModel(articles: response.results)
-        viewController?.displayHome(viewModel: viewModel)
+    func presentArticles(response: Home.GetArticles.Response, period: Home.ArticlesPeriod) {
+        let viewModel = Home.GetArticles.ViewModel(period: period, articles: response.results)
+        viewController?.displayArticles(viewModel: viewModel)
     }
     
     func presentError(message: String) {

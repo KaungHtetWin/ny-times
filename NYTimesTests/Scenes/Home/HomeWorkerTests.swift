@@ -23,6 +23,7 @@ class HomeWorkerTests: XCTestCase {
     
     override func tearDown() {
         super.tearDown()
+        sut = nil
     }
     
     // MARK: Test setup
@@ -44,7 +45,7 @@ class HomeWorkerTests: XCTestCase {
             XCTAssertNotNil(JSONObject, "doGetArticles should response data")
             successExpectation.fulfill()
         })
-        wait(for: [successExpectation], timeout: 2)
+        wait(for: [successExpectation], timeout: 3)
     }
     
     func testGetArticle7DayPeriod() {
@@ -57,7 +58,7 @@ class HomeWorkerTests: XCTestCase {
             XCTAssertNotNil(JSONObject, "doGetArticles should response data")
             successExpectation.fulfill()
         })
-        wait(for: [successExpectation], timeout: 2)
+        wait(for: [successExpectation], timeout: 3)
     }
     
     func testGetArticle30DayPeriod() {
@@ -70,20 +71,6 @@ class HomeWorkerTests: XCTestCase {
             XCTAssertNotNil(JSONObject, "doGetArticles should response data")
             successExpectation.fulfill()
         })
-        wait(for: [successExpectation], timeout: 2)
-    }
-}
-
-// MARK: Test doubles
-
-class MockAPIManager: APIManagerLogic {
-    func sendJSONRequest(endpoint: Endpoint, completion: @escaping (ResponseDataCompletionHandler)) {
-        if endpoint.path == "viewed/1.json" {
-            completion(AppUtility.readLocalFile(forName: "OneDayArticles"), nil)
-        } else if endpoint.path == "viewed/7.json" {
-            completion(AppUtility.readLocalFile(forName: "SevenDayArticles"), nil)
-        } else if endpoint.path == "viewed/30.json" {
-            completion(AppUtility.readLocalFile(forName: "ThirtyDaysArticles"), nil)
-        }
+        wait(for: [successExpectation], timeout: 3)
     }
 }

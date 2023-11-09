@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="SF-Pro-Display-Bold.otf">
+            <string>SFProDisplay-Bold</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ArticleCell" id="Q2j-Ti-h8B" customClass="ArticleCell" customModule="NYTimes" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="170"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="170"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3Gh-Ef-swP" userLabel="Main View">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="170"/>
+                        <subviews>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Oj8-FD-6Mt" userLabel="Content View">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                                <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ico-placeholder" translatesAutoresizingMaskIntoConstraints="NO" id="at9-2e-JS0">
+                                        <rect key="frame" x="0.0" y="0.0" width="320" height="160"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qdp-vg-vM8">
+                                        <rect key="frame" x="20" y="150" width="280" height="0.0"/>
+                                        <fontDescription key="fontDescription" name="SFProDisplay-Bold" family="SF Pro Display" pointSize="18"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="bottom" secondItem="Qdp-vg-vM8" secondAttribute="bottom" constant="10" id="2mS-wf-949"/>
+                                    <constraint firstAttribute="trailing" secondItem="Qdp-vg-vM8" secondAttribute="trailing" constant="20" id="Kxe-9a-zrc"/>
+                                    <constraint firstAttribute="bottom" secondItem="at9-2e-JS0" secondAttribute="bottom" id="Owg-D3-NDT"/>
+                                    <constraint firstItem="at9-2e-JS0" firstAttribute="top" secondItem="Oj8-FD-6Mt" secondAttribute="top" id="PPH-8j-w0B"/>
+                                    <constraint firstAttribute="trailing" secondItem="at9-2e-JS0" secondAttribute="trailing" id="Tcd-6w-bbY"/>
+                                    <constraint firstItem="Qdp-vg-vM8" firstAttribute="leading" secondItem="Oj8-FD-6Mt" secondAttribute="leading" constant="20" id="gcY-js-dc8"/>
+                                    <constraint firstItem="at9-2e-JS0" firstAttribute="leading" secondItem="Oj8-FD-6Mt" secondAttribute="leading" id="s14-j8-47z"/>
+                                    <constraint firstItem="Qdp-vg-vM8" firstAttribute="leading" secondItem="Oj8-FD-6Mt" secondAttribute="leading" constant="20" id="sse-S1-aO6"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="Oj8-FD-6Mt" secondAttribute="bottom" constant="10" id="0Ho-xX-LNN"/>
+                            <constraint firstItem="Oj8-FD-6Mt" firstAttribute="leading" secondItem="3Gh-Ef-swP" secondAttribute="leading" id="J22-j6-P6K"/>
+                            <constraint firstAttribute="trailing" secondItem="Oj8-FD-6Mt" secondAttribute="trailing" id="Nhw-mY-M6w"/>
+                            <constraint firstItem="Oj8-FD-6Mt" firstAttribute="top" secondItem="3Gh-Ef-swP" secondAttribute="top" id="YRO-tk-HTb"/>
+                        </constraints>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="pbE-tC-X8L"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="3Gh-Ef-swP" firstAttribute="leading" secondItem="Q2j-Ti-h8B" secondAttribute="leading" id="1kQ-pt-qUw"/>
+                <constraint firstAttribute="trailing" secondItem="3Gh-Ef-swP" secondAttribute="trailing" id="DHt-4P-P3a"/>
+                <constraint firstAttribute="bottom" secondItem="3Gh-Ef-swP" secondAttribute="bottom" id="FUj-nf-IEh"/>
+                <constraint firstItem="3Gh-Ef-swP" firstAttribute="top" secondItem="Q2j-Ti-h8B" secondAttribute="top" id="jTN-x9-f54"/>
+            </constraints>
+            <connections>
+                <outlet property="imgPoster" destination="at9-2e-JS0" id="2N1-Hq-ywj"/>
+                <outlet property="mainView" destination="3Gh-Ef-swP" id="ccR-wb-LDV"/>
+                <outlet property="title" destination="Qdp-vg-vM8" id="RME-KI-nNe"/>
+            </connections>
+            <point key="canvasLocation" x="139" y="21"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="ico-placeholder" width="77" height="107"/>
+    </resources>
+</document>

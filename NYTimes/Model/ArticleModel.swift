@@ -23,12 +23,12 @@ struct Article: Codable {
     let uri: String?
     let url: String?
     let id, assetID: Int?
-    let source: Source?
+    let source: String?
     let publishedDate, updated, section: String?
-    let subsection: Subsection?
+    let subsection: String?
     let nytdsection, adxKeywords: String?
     let byline: String?
-    let type: ResultType?
+    let type: String?
     let title, abstract: String?
     let desFacet, orgFacet, perFacet, geoFacet: [String]?
     let media: [Media]?
@@ -48,6 +48,11 @@ struct Article: Codable {
         case geoFacet = "geo_facet"
         case media
         case etaID = "eta_id"
+    }
+    
+    func getImage(format: Format) -> String? {
+        let imageMedia = media?.filter({ $0.type == .image }).first
+        return imageMedia?.mediaMetadata?.filter({ $0.format == format }).first?.url
     }
 }
 
@@ -88,17 +93,3 @@ enum MediaType: String, Codable {
     case image = "image"
 }
 
-enum Source: String, Codable {
-    case newYorkTimes = "New York Times"
-}
-
-enum Subsection: String, Codable {
-    case elections = "Elections"
-    case empty = ""
-    case politics = "Politics"
-}
-
-enum ResultType: String, Codable {
-    case article = "Article"
-    case interactive = "Interactive"
-}

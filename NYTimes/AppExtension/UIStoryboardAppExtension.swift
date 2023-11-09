@@ -20,4 +20,12 @@ extension UIStoryboard {
     class func homeViewController() -> HomeViewController? {
         return StoryBoard.Home.instance(HomeViewController.className) as? HomeViewController
     }
+    
+    class func searchArticlesViewController() -> SearchArticlesViewController? {
+        return StoryBoard.Home.instance(SearchArticlesViewController.className) as? SearchArticlesViewController
+    }
+    
+    class func articlesDetailsViewController() -> ArticleDetailsViewController? {
+        return StoryBoard.Home.instance(ArticleDetailsViewController.className) as? ArticleDetailsViewController
+    }
 }

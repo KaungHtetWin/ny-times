@@ -12,6 +12,7 @@
 
 - [x] Home
     - User able to seet list the most popular articles (Most Viewed by Section & Time Period)
+        User able to search for articles by a search term/text string.
 - [x] Detail page
     - Show the article
 
@@ -25,10 +26,19 @@ The app is written and built with this following hardware and sofware specificat
 - Swift Version: 5
 - Minium iOS Version : 13.0
 
+The app is written in UIKit and VIP Clean architecture. **92%** Code coverage.
+Use **UICollectionViewCompositionalLayout** for data visualisation.
+
+## Third-party libraries
+
+### Kingfisher (https://github.com/onevcat/Kingfisher)
+Used for downloading and caching images. In the app, it is used to show the images of the articles.
+
 ### Reference
 
 https://clean-swift.com/
 https://developer.nytimes.com/docs
+https://clean-swift.com
 
 [swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/

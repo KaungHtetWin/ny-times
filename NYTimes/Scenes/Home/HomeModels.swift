@@ -34,6 +34,7 @@ enum Home {
         }
         
         struct ViewModel {
+            let period: ArticlesPeriod
             let articles: [Article]?
         }
     }
