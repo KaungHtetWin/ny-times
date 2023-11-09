@@ -37,8 +37,9 @@ Used for downloading and caching images. In the app, it is used to show the imag
 ### Reference
 
 https://clean-swift.com/
+
 https://developer.nytimes.com/docs
-https://clean-swift.com
+
 
 [swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
