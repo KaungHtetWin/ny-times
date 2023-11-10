@@ -26,7 +26,7 @@ jobs:
     #     xcodebuild build -project NYTimes.xcodeproj -scheme NYTimes clean build -sdk iphonesimulator CODE_SIGNING_ALLOWED=No
     - name: Run tests
       run: |
-        xcodebuild test -project NYTimes.xcodeproj -scheme NYTimes clean build -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=16.2,name=iPhone 14' -enableCodeCoverage YES clean build test CODE_SIGNING_ALLOWED=No
+        xcodebuild test -project NYTimes.xcodeproj -scheme NYTimes clean build -sdk iphonesimulator -destination 'platform=iOS Simulator,OS=16.2,name=iPhone 14' -enableCodeCoverage YES CODE_SIGNING_ALLOWED=No
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3
       env:
