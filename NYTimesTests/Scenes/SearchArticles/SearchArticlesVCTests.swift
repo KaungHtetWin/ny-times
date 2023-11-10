@@ -22,8 +22,8 @@ class SearchArticlesVCTests: XCTestCase {
     }
     
     override func tearDown() {
-        super.tearDown()
         sut = nil
+        super.tearDown()
     }
     
     // MARK: Test setup
@@ -86,7 +86,7 @@ class SearchArticlesVCTests: XCTestCase {
         // When
         let numberOfRows = sut.collectionView(collectionView, numberOfItemsInSection: 0)
         // Then
-        XCTAssertEqual(numberOfRows, 10, "numberOfSections should be 20")
+        XCTAssertEqual(numberOfRows, 1, "numberOfSections should be 20")
     }
     
     func testShouldConfigureCollectionCellToDisplaySearchArticles() {

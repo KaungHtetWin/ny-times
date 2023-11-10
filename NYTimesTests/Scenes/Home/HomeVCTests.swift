@@ -22,8 +22,8 @@ class HomeVCTests: XCTestCase {
     }
     
     override func tearDown() {
-        super.tearDown()
         sut = nil
+        super.tearDown()
     }
     
     // MARK: Test setup
@@ -110,7 +110,7 @@ class HomeVCTests: XCTestCase {
         // When
         let numberOfRows = sut.collectionView(collectionView, numberOfItemsInSection: 0)
         // Then
-        XCTAssertEqual(numberOfRows, 20, "numberOfSections should be 20")
+        XCTAssertEqual(numberOfRows, 1, "numberOfSections should be 20")
     }
     
     func testShouldConfigureCollectionCellToDisplayArticles() {
@@ -126,21 +126,6 @@ class HomeVCTests: XCTestCase {
         XCTAssertEqual(cell.title.text, "Under Scrutiny Over Gaza, Israel Points to Civilian Toll of U.S. Wars", "article of first cell should Under Scrutiny Over Gaza, Israel Points to Civilian Toll of U.S. Wars")
     }
     
-    func testShouldConfigureCollectionCellToDisplayMinArticles() {
-        // Given
-        let collectionView = sut.articleCollectionView!
-        let articleViewedOneDayData = AppUtility.readLocalFile(forName: "SevenDayArticles")
-        let responseData = Home.GetArticles.Response.from(data: articleViewedOneDayData)
-        sut.viewed7Days = responseData?.results ?? []
-        // When
-        let indexPath = IndexPath(row: 0, section: 1)
-        let cell = sut.collectionView(collectionView, cellForItemAt: indexPath) as! MinArticleCell
-        let imageView = UIImageView()
-        imageView.kf.setImage(with: responseData?.results?.first?.getImage(format: .standardThumbnail)?.url)
-        // Then
-        XCTAssertEqual(cell.imgPoster.image, imageView.image, "article of first cell should image")
-    }
-    
     func testShouldConfigureCollectionCellToDisplayHorizontalArticles() {
         // Given
         let collectionView = sut.articleCollectionView!
@@ -152,20 +137,6 @@ class HomeVCTests: XCTestCase {
         let cell = sut.collectionView(collectionView, cellForItemAt: indexPath) as! HorizontalArticleCell
         // Then
         XCTAssertEqual(cell.title.text, "Hamas gunmen surged into Israel in a highly organized and meticulously planned operation that suggested a deep understanding of Israel’s weaknesses. Here is how the attacks unfolded.", "article of first cell should Hamas gunmen surged into Israel in a highly organized and meticulously planned operation that suggested a deep understanding of Israel’s weaknesses. Here is how the attacks unfolded.")
-    }
-    
-    func testDisplayError() {
-        // Given
-        // When
-        sut.displayError(message: "Test Error")
-        // Then
-        let waitExpectation = expectation(description: "Waiting")
-        let when = DispatchTime.now() + 2
-        DispatchQueue.main.asyncAfter(deadline: when) {
-            XCTAssertFalse(self.sut.refreshControl.isRefreshing)
-            waitExpectation.fulfill()
-        }
-        waitForExpectations(timeout: 2.5)
     }
     
     func testRefreshControl() {

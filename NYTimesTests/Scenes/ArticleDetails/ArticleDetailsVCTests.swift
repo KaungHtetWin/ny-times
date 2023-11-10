@@ -22,8 +22,8 @@ class ArticleDetailsVCTests: XCTestCase {
     }
     
     override func tearDown() {
-        super.tearDown()
         sut = nil
+        super.tearDown()
     }
     
     // MARK: Test setup
