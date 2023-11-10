@@ -33,7 +33,7 @@ jobs:
         xcodebuild -project NYTimes.xcodeproj -scheme NYTimes -destination 'platform=iOS Simulator,OS=16.2,name=iPhone 14' -enableCodeCoverage YES -resultBundlePath $RESULT_BUNDLE clean build test
     - name: Generate coverage reports to xml format
       run: |
-        curl -L -o xcresultparser.zip "https://github.com/a7ex/xcresultparser/releases/download/1.5.0/xcresultparser.zip"; unzip xcresultparser.zip; rm xcresultparser.zip; chmod +x /xcresultparser; cd xcresultparser/
+        curl -L -o xcresultparser.zip "https://github.com/a7ex/xcresultparser/releases/download/1.5.0/xcresultparser.zip"; unzip xcresultparser.zip; rm xcresultparser.zip; chmod +x /product/xcresultparser; cd product/xcresultparser/
         ./xcresultparser -o xml $RESULT_BUNDLE > $RESULT_XML
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3
