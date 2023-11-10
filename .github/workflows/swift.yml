@@ -9,8 +9,8 @@ on:
   pull_request:
     branches: [ "main" ]
 env:
-  RESULT_BUNDLE: "CodeCoverage$(date +'%Y-%m-%d').xcresult"
-  RESULT_JSON: "CodeCoverage$(date +'%Y-%m-%d').json"
+  RESULT_BUNDLE: "CodeCoverage{$(date +'%Y-%m-%d')}.xcresult"
+  RESULT_JSON: "CodeCoverage${$(date +'%Y-%m-%d')}.json"
 jobs:
   build:
 
