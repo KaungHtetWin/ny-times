@@ -24,16 +24,17 @@ jobs:
       run: echo "today={$(date +'%Y-%m-%d')}" >> $GITHUB_ENV
       env:
         RESULT_BUNDLE: "CodeCoverage${{ env.today }}.xcresult"
-        RESULT_JSON: "CodeCoverage${{ env.today }}.json"   
+        RESULT_XML: "CodeCoverage${{ env.today }}.xml"   
     # - name: Build
     #   run: |
     #     xcodebuild build -project NYTimes.xcodeproj -scheme NYTimes clean build -sdk iphonesimulator CODE_SIGNING_ALLOWED=No
     - name: Run tests
       run: |
         xcodebuild -project NYTimes.xcodeproj -scheme NYTimes -destination 'platform=iOS Simulator,OS=16.2,name=iPhone 14' -enableCodeCoverage YES -resultBundlePath $RESULT_BUNDLE clean build test
-    - name: Generate coverage reports to json format
+    - name: Generate coverage reports to xml format
       run: |
-        xcrun xccov view --report --json $RESULT_BUNDLE > $RESULT_JSON
+        curl -L -o xcresultparser.zip "https://github.com/a7ex/xcresultparser/releases/download/1.5.0/xcresultparser.zip"; unzip xcresultparser.zip; rm xcresultparser.zip chmod +x /xcresultparser
+        ./xcresultparser -o xml $RESULT_BUNDLE > $RESULT_XML
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3
       env:
