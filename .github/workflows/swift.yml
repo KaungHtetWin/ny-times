@@ -23,7 +23,6 @@ jobs:
         
     - name: Build
       run: |
-        cd NYTimes
         xcodebuild build -project NYTimes.xcodeproj -scheme NYTimes clean build -sdk iphoneos CODE_SIGNING_ALLOWED=No
     - name: Run tests
       run: |
