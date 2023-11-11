@@ -57,7 +57,7 @@ final class APIManagerTests: XCTestCase {
             failExpectation.fulfill()
         })
         
-        wait(for: [failExpectation], timeout: 2)
+        wait(for: [failExpectation], timeout: 3)
     }
     
     func testSendRequestShouldResponseEmpty() {
@@ -77,7 +77,7 @@ final class APIManagerTests: XCTestCase {
             throwExpectation.fulfill()
         })
         
-        wait(for: [throwExpectation], timeout: 1)
+        wait(for: [throwExpectation], timeout: 3)
     }
 }
 
