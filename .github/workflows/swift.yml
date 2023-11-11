@@ -35,7 +35,7 @@ jobs:
         echo "CodeCoverage${{ env.today }}.xml"
         cd ~/work/ny-times/ny-times/product/
         pwd
-        ./xcresultparser -o xml "CodeCoverage${{ env.today }}.xcresult" > "CodeCoverage${{ env.today }}.xml"
+        ./xcresultparser -o xml ~/work/ny-times/ny-times/"CodeCoverage${{ env.today }}.xcresult" > ~/work/ny-times/ny-times/"CodeCoverage${{ env.today }}.xml"
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3
       env:
