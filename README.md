@@ -26,7 +26,7 @@ The app is written and built with this following hardware and sofware specificat
 - Swift Version: 5
 - Minium iOS Version : 13.0
 
-The app is written in UIKit and VIP Clean architecture. **92%** Code coverage.
+The app is written in UIKit and VIP Clean architecture.
 Use **UICollectionViewCompositionalLayout** for data visualisation.
 
 ## Third-party libraries
