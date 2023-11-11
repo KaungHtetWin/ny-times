@@ -31,8 +31,8 @@ jobs:
     - name: Generate coverage reports to xml format
       run: |
         curl -L -o xcresultparser.zip "https://github.com/a7ex/xcresultparser/releases/download/1.5.0/xcresultparser.zip"; unzip xcresultparser.zip; rm xcresultparser.zip; chmod +x ~/work/ny-times/ny-times/product/xcresultparser
-        echo "CodeCoverage${ env.today }.xcresult"
-        echo "CodeCoverage${ env.today }.xml"
+        echo "CodeCoverage${{ env.today }}.xcresult"
+        echo "CodeCoverage${{ env.today }}.xml"
         ./xcresultparser -o xml "CodeCoverage${{ env.today }}.xcresult" > "CodeCoverage${{ env.today }}.xml"
     - name: Upload coverage reports to Codecov
       uses: codecov/codecov-action@v3
