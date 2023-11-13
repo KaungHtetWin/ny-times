@@ -1,5 +1,6 @@
 [![Swift Version][swift-image]][swift-url]
 [![codecov](https://codecov.io/github/KaungHtetWin/ny-times/graph/badge.svg?token=63Z33NUZ1A)](https://codecov.io/github/KaungHtetWin/ny-times)
+![main](https://github.com/github/docs/actions/workflows/main.yml/badge.svg?branch=main)
 # NYTimes
 <br />
 <p align="center">
