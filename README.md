@@ -15,7 +15,7 @@
     - User able to seet list the most popular articles (Most Viewed by Section & Time Period)
         User able to search for articles by a search term/text string.
 - [x] Detail page
-    - Show the article. when click read more button show detail article in webview
+    - Show the article. 
 
 
 ### Technical Specification
