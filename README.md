@@ -15,7 +15,7 @@
     - User able to seet list the most popular articles (Most Viewed by Section & Time Period)
         User able to search for articles by a search term/text string.
 - [x] Detail page
-    - Show the article
+    - Show the article. when click read more button show detail article in webview
 
 
 ### Technical Specification
@@ -44,3 +44,4 @@ https://developer.nytimes.com/docs
 
 [swift-image]:https://img.shields.io/badge/swift-5.0-orange.svg
 [swift-url]: https://swift.org/
+
